@@ -38,6 +38,13 @@
     if (el.hasAttribute("data-show-address")) el.textContent = C.email;
   });
 
+  // PayPal.me link, shown as text so people can see the account
+  $$("[data-paypal-link]").forEach(function (el) {
+    if (!C.paypalMe) return;
+    el.href = "https://paypal.me/" + encodeURIComponent(C.paypalMe);
+    el.textContent = "paypal.me/" + C.paypalMe;
+  });
+
   // Venmo profile link
   $$("[data-venmo-link]").forEach(function (el) {
     if (C.venmo) el.href = "https://venmo.com/u/" + encodeURIComponent(C.venmo.replace(/^@/, ""));
