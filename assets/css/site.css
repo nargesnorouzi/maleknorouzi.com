@@ -266,3 +266,8 @@ a.work-link:hover h3 { color: var(--earth); }
 
 /* note under gift options */
 .gift-note { font-size: .85rem; color: var(--ink-3); margin-top: 14px; }
+
+/* PayPal account line */
+.paypal-line { margin: 10px 0 4px; font-size: .98rem; }
+.paypal-line .k { color: var(--ink-2); font-weight: 500; }
+a.paypal-link { direction: ltr; unicode-bidi: isolate; font-weight: 500; }
