@@ -52,7 +52,9 @@ as a fallback, in case the form service is not reachable from Iran without a VPN
 
 ## Gifts
 
-PayPal.me (paypal.me/MalekNorouzi) is set in `assets/js/config.js`. Venmo and Zelle are supported but left empty; empty values are hidden.
+The PayPal link (paypal.me/MalekNorouzi) and the "Pay with PayPal" button are written directly in the gift section of
+`eshghnameh/index.html` and `en/eshghnameh/index.html`, and in the contact section of both home pages.
+To change the account, edit those four files.
 The gift text is addressed to readers outside Iran and says a gift is optional.
 Don't put phone numbers in this repo: it is public, and old commits stay visible.
 
