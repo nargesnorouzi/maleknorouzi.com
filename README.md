@@ -7,7 +7,7 @@ site does not depend on Google or other CDNs that can be slow or blocked for vis
 ```
 index.html                 Persian home
 eshghnameh/index.html      Persian book page (request form + gift)
-eshghnameh/sample.pdf      Public sample: cover + first 12 pages
+eshghnameh/sample.pdf      Public sample: cover + pages 1-8
 en/index.html              English home
 en/eshghnameh/index.html   English book page
 assets/js/config.js        <- all account settings live here
