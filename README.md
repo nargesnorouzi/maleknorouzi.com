@@ -52,7 +52,7 @@ as a fallback, in case the form service is not reachable from Iran without a VPN
 
 ## Gifts
 
-PayPal.me and Venmo are set in `assets/js/config.js` (Zelle is supported but left empty). Empty values are hidden.
+PayPal.me (paypal.me/MalekNorouzi) is set in `assets/js/config.js`. Venmo and Zelle are supported but left empty; empty values are hidden.
 The gift text is addressed to readers outside Iran and says a gift is optional.
 Don't put phone numbers in this repo: it is public, and old commits stay visible.
 
