@@ -4,16 +4,16 @@
 window.SITE_CONFIG = {
 
   // Shown as the contact address and as the fallback for book requests.
-  email: "narges.norouzi89@gmail.com",
+  email: "norouzimalek@gmail.com",
 
   // Where the request form is sent (FormSubmit, free, no account).
   // The first request triggers a one-time activation email to the address above.
   // After activation FormSubmit sends a random alias; you can put it in place of the
   // email in this URL to keep the address out of the page source.
-  formEndpoint: "https://formsubmit.co/ajax/narges.norouzi89@gmail.com",
+  formEndpoint: "https://formsubmit.co/ajax/norouzimalek@gmail.com",
 
   // PayPal.me username only (paypal.me/<this>)
-  paypalMe: "nargesnorouzi89",
+  paypalMe: "MalekNorouzi",
 
   // Suggested gift amounts in US dollars, shown as buttons.
   giftAmountsUSD: [10, 20, 50],
@@ -22,7 +22,7 @@ window.SITE_CONFIG = {
   zelle: "",
 
   // Venmo username without the @
-  venmo: "Narges-Norouzi",
+  venmo: "",
 
   // Where to buy the printed book and the Kindle edition.
   // These search Amazon by ISBN; replace with the exact product links when available.
