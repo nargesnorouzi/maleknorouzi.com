@@ -271,3 +271,7 @@ a.work-link:hover h3 { color: var(--earth); }
 .paypal-line { margin: 10px 0 4px; font-size: .98rem; }
 .paypal-line .k { color: var(--ink-2); font-weight: 500; }
 a.paypal-link { direction: ltr; unicode-bidi: isolate; font-weight: 500; }
+
+/* epigraph above the name */
+.profile .epigraph { margin: 0 0 6px; color: var(--deep-2); font-size: 1.05rem; }
+.profile .epigraph .src { color: var(--ink-3); font-size: .9rem; }
