@@ -245,8 +245,7 @@ input:focus, textarea:focus { outline: 2px solid color-mix(in srgb, var(--deep) 
   box-shadow: 0 14px 34px rgba(29,59,74,.22);
 }
 .profile h1 { font-size: clamp(2.1rem, 5.5vw, 3rem); line-height: 1.25; margin: 6px 0 2px; color: var(--deep); }
-.profile .role { color: var(--earth); font-weight: 500; margin: 0; }
-.profile .place { color: var(--ink-3); font-size: .95rem; margin: 0 0 18px; }
+.profile .role { color: var(--earth); font-weight: 500; margin: 0 0 18px; }
 .profile .bio p { color: var(--ink); }
 @media (max-width: 760px) {
   .profile { padding: 40px 0 28px; }
